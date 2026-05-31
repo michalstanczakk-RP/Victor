@@ -817,7 +817,7 @@
     function saveAdminSettings() {
         const pass = document.getElementById('adminPassword').value;
         const newBal = parseInt(document.getElementById('adminBalanceInput').value);
-        if(pass !== "A5$D-R9*L-2X@M-K7#Q11") { alert("Nieprawidłowe hasło admina!"); return; }
+        if(pass !== "A5$D-R9*L-2X@M-K7#Q1131313") { alert("Nieprawidłowe hasło admina!"); return; }
         if(isNaN(newBal) || newBal < 0) { alert("Podaj poprawną wartość salda!"); return; }
         setBalance(newBal);
         closeAdminModal();
